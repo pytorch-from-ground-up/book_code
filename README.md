@@ -1,43 +1,68 @@
-# PyTorch From Ground Up - Companion Notebooks
+<p align="center">
+  <a href="https://leanpub.com/pytorchfromgroundup">
+    <img src="https://d2sofvawe08yqg.cloudfront.net/pytorchfromgroundup/s_hero2x?1783950123&amp;1783950123" alt="PyTorch From Ground Up — Volume I: Foundations book cover" width="280">
+  </a>
+</p>
 
-    Runnable, CPU-friendly study notebooks for **PyTorch From Ground Up, Volume I: Foundations** by Wesam M. Khallaf.
+<p align="center"><strong><a href="https://leanpub.com/pytorchfromgroundup">Buy PyTorch From Ground Up on Leanpub →</a></strong></p>
 
-    The repository follows all 34 numbered chapters in the book. Each notebook includes:
+# PyTorch From Ground Up — Companion Notebooks
 
-    - chapter-specific learning objectives;
-    - small, deterministic worked examples;
-    - shape and correctness checks;
-    - practice prompts and a scratch cell;
-    - no required dataset downloads.
+Runnable, CPU-friendly study notebooks for **PyTorch From Ground Up, Volume I: Foundations** by Wesam M. Khallaf.
 
-    ## Start here
+The repository follows all 34 numbered chapters in the book. Each notebook includes chapter-specific learning objectives, small deterministic examples, shape and correctness checks, and practice prompts—without required dataset downloads.
 
-    ### Google Colab
+## Table of contents
 
-    Select **Open in Colab** beside any chapter below. In a fresh Colab runtime, PyTorch is normally already installed.
+| Part | Chapters |
+|---|---:|
+| [Orientation & Setup](#part-0---orientation--setup) | 1 |
+| [I · Tensor Fluency](#part-i---tensor-fluency) | 2–12 |
+| [II · How Learning Actually Happens](#part-ii---how-learning-actually-happens) | 13–17 |
+| [III · Building Models from Blocks](#part-iii---building-models-from-blocks) | 18–22 |
+| [IV · Feeding Data](#part-iv---feeding-data) | 23–26 |
+| [V · The Training Loop, Mastered](#part-v---the-training-loop-mastered) | 27–31 |
+| [VI · Evaluation, Debugging & Seeing Inside](#part-vi---evaluation-debugging--seeing-inside) | 32–34 |
 
-    ### Run locally
+## The Four Boxes teaching method
 
-    ```bash
-    git clone https://github.com/pytorch-from-ground-up/book_code.git
-    cd book_code
-    python -m venv .venv
-    source .venv/bin/activate  # Windows: .venv\Scripts\activate
-    pip install -r requirements.txt
-    jupyter lab
-    ```
+Every chapter follows the same active-learning rhythm:
 
-    All examples are designed to run on CPU. Chapter 30 detects CUDA or Apple MPS when available and otherwise uses CPU.
+- **Code** — type a short, runnable example and inspect the real output.
+- **Try It** — predict what will happen before running the next variation.
+- **Watch Out** — meet the common mistake early and learn how to diagnose it.
+- **The Rule** — keep the durable principle that carries into the next chapter.
 
-    ## How to study
+![The Four Boxes teaching method](docs/images/four-boxes-methodology.svg)
 
-    1. Read the matching book chapter first.
-    2. Predict each output and shape before running the cell.
-    3. Change one value or axis and explain the result.
-    4. Complete the practice prompts from memory.
-    5. Return to the chapter's exercises for deeper work.
+## Start here
 
-    ## Notebook index
+### Google Colab
+
+Select **Open in Colab** beside any chapter below. In a fresh Colab runtime, PyTorch is normally already installed.
+
+### Run locally
+
+```bash
+git clone https://github.com/pytorch-from-ground-up/book_code.git
+cd book_code
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+jupyter lab
+```
+
+All examples are designed to run on CPU. Chapter 30 detects CUDA or Apple MPS when available and otherwise uses CPU.
+
+## How to study
+
+1. Read the matching book chapter first.
+2. Predict each output and shape before running the cell.
+3. Change one value or axis and explain the result.
+4. Complete the practice prompts from memory.
+5. Return to the chapter's exercises for deeper work.
+
+## Notebook index
 
 
 ### Part 0 - Orientation & Setup
@@ -109,22 +134,22 @@
 | 33 | [Visualization](notebooks/part-6-evaluation-debugging/33-visualization.ipynb) | [Open in Colab](https://colab.research.google.com/github/pytorch-from-ground-up/book_code/blob/main/notebooks/part-6-evaluation-debugging/33-visualization.ipynb) |
 | 34 | [Debugging PyTorch](notebooks/part-6-evaluation-debugging/34-debugging-pytorch.ipynb) | [Open in Colab](https://colab.research.google.com/github/pytorch-from-ground-up/book_code/blob/main/notebooks/part-6-evaluation-debugging/34-debugging-pytorch.ipynb) |
 
-    ## Repository scope
+## Repository scope
 
-    These notebooks are companion material, not a replacement for the book. They intentionally use fresh examples and concise explanations. The manuscript, print files, and complete book text are not included.
+These notebooks are companion material, not a replacement for the book. They intentionally use fresh examples and concise explanations. The manuscript, print files, and complete book text are not included.
 
-    ## Requirements
+## Requirements
 
-    - Python 3.10 or newer
-    - PyTorch 2.x
-    - NumPy
-    - Matplotlib
-    - JupyterLab or another Jupyter-compatible notebook environment
+- Python 3.10 or newer
+- PyTorch 2.x
+- NumPy
+- Matplotlib
+- JupyterLab or another Jupyter-compatible notebook environment
 
-    ## Contributing and corrections
+## Contributing and corrections
 
-    Found a code issue or a difference caused by a newer PyTorch release? Please open a GitHub issue with the chapter number, notebook path, PyTorch version, operating system, and the full error message. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Found a code issue or a difference caused by a newer PyTorch release? Please open a GitHub issue with the chapter number, notebook path, PyTorch version, operating system, and the full error message. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-    ## License
+## License
 
-    Code examples are released under the [MIT License](LICENSE). Notebook narrative, exercise wording, book title, branding, and other non-code content are Copyright © 2026 Wesam M. Khallaf. All rights reserved. See [CONTENT_NOTICE.md](CONTENT_NOTICE.md).
+Code examples are released under the [MIT License](LICENSE). Notebook narrative, exercise wording, book title, branding, and other non-code content are Copyright © 2026 Wesam M. Khallaf. All rights reserved. See [CONTENT_NOTICE.md](CONTENT_NOTICE.md).
