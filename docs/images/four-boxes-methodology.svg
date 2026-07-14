@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The Four Boxes teaching method</title>
+  <desc id="desc">Code, Try It, Watch Out, and The Rule form the active learning rhythm used throughout PyTorch From Ground Up.</desc>
+  <rect width="1600" height="900" fill="#f6eedc"/>
+  <text x="70" y="75" fill="#1a1510" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="7">HOW EVERY PAGE TEACHES</text>
+  <text x="70" y="220" fill="#1a1510" font-family="Georgia, serif" font-size="128">The Four Boxes</text>
+  <g stroke="#d8c7aa" stroke-width="2" fill="#fffaf0">
+    <rect x="70" y="280" width="365" height="430"/>
+    <rect x="435" y="280" width="365" height="430"/>
+    <rect x="800" y="280" width="365" height="430"/>
+    <rect x="1165" y="280" width="365" height="430"/>
+  </g>
+  <g fill="#c2562f" font-family="Arial, sans-serif" font-size="66" font-weight="700" text-anchor="middle">
+    <text x="252" y="380">01</text><text x="617" y="380">02</text><text x="982" y="380">03</text><text x="1347" y="380">04</text>
+  </g>
+  <g fill="#1a1510" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4" text-anchor="middle">
+    <text x="252" y="460">CODE</text><text x="617" y="460">TRY IT</text><text x="982" y="460">WATCH OUT</text><text x="1347" y="460">THE RULE</text>
+  </g>
+  <g fill="#1a1510" font-family="Georgia, serif" font-size="34" text-anchor="middle">
+    <text x="252" y="520">Short and runnable</text><text x="617" y="520">Guess before you run</text><text x="982" y="520">Meet the mistake early</text><text x="1347" y="520">Keep what matters</text>
+  </g>
+  <g fill="none" stroke="#675c52" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="183" y="570" width="138" height="94" rx="10"/><path d="M183 600h138M230 620l-22 14 22 14M275 620l22 14-22 14"/>
+    <path d="M582 615c0-28 22-48 50-48s50 20 50 48c0 26-22 39-38 48v12M644 693h1"/><circle cx="632" cy="632" r="75" stroke-dasharray="6 15"/>
+    <path d="M982 570l-74 125h148zM982 613v42M982 676h1"/>
+    <path d="M1304 570h72l38 38v86h-110zM1376 570v39h38M1328 635h62M1328 657h50"/><path d="M1376 681l16 16 34-39"/>
+  </g>
+  <line x1="70" y1="785" x2="420" y2="785" stroke="#d8c7aa" stroke-width="2"/>
+  <line x1="1180" y1="785" x2="1530" y2="785" stroke="#d8c7aa" stroke-width="2"/>
+  <text x="800" y="805" fill="#1a1510" font-family="Georgia, serif" font-size="46" text-anchor="middle">Type it. Predict it. Break it. Keep it.</text>
+</svg>
