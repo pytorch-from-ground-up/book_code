@@ -12,6 +12,13 @@ Runnable, CPU-friendly study notebooks for **PyTorch From Ground Up, Volume I: F
 
 The repository follows all 34 numbered chapters in the book. Each notebook includes chapter-specific learning objectives, small deterministic examples, shape and correctness checks, and practice prompts—without required dataset downloads.
 
+## 📖 Read 8 free chapters
+
+[**PyTorch From Ground Up — 8 complete chapters, free**](PyTorch-From-Ground-Up-8-Free-Chapters.pdf)
+— chapters 2, 3, 5, 13, 19, 23, 27 and 34, unabridged. No email required.
+
+Full book: [Leanpub](https://leanpub.com/pytorchfromgroundup) · [Amazon](https://www.amazon.com/dp/B0H8WMCV33) · [Free tensor cheat-sheet](https://payhip.com/b/7ukxh)
+
 ## Table of contents
 
 | Part | Chapters |
